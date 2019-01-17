@@ -1,10 +1,15 @@
 Advantedge Challenge
 
+Instructions
+
+    Build the solution and press F5 to launch the solution.
+
 Below is the folder structure that's been followed for better maintainability of the code.
 
     Controllers - All the controllers are placed here.
     ViewModels - View Models used to bind the user inputs and validate them before assigning back to the 
     actual Model.
+    Assets - Provided JSON file has been placed here.
     Models - Used to bind and validate the data.
     Repository - Entire business logic has been placed here and a corresponding interface has been created 
     in order to properly unit test the code.
