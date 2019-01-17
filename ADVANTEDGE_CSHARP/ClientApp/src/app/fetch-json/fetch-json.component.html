@@ -1,10 +1,13 @@
 
+<h2>Owner names in ascending order group by gender</h2>
+<hr />
+
 <div *ngIf="error">
   {{error}}
 </div>
 
 <div *ngFor="let item of result">
-  <h2>{{item.gender}}</h2>
+  <h3>{{item.gender}}</h3>
   <ul>
     <li *ngFor="let owner of item.owners">
       {{ owner }}
